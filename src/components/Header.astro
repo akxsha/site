@@ -6,19 +6,14 @@ import { NavigationLinks } from '@/config'
 ---
 
 <header class="sticky inset-x-0 top-4 z-50 flex w-full flex-wrap text-sm md:flex-nowrap md:justify-start">
+    <div class="text-white">
+        Logo
+    </div>
     <nav
-        class="relative mx-2 w-full rounded-[36px] border border-neutral-100 bg-neutral-100 px-4 py-3 backdrop-blur-md dark:border-neutral-700/40 dark:bg-neutral-800/80 dark:backdrop-blur-md md:flex md:items-center md:justify-between md:px-6 lg:px-8 xl:mx-auto"
+        class="ml-auto relative mx-2 rounded-[36px] border border-neutral-100 bg-neutral-100 px-4 py-3 backdrop-blur-md dark:border-neutral-700/40 dark:bg-neutral-800/80 dark:backdrop-blur-md md:flex md:items-center md:justify-between md:px-6 lg:px-8 xl:mx-auto"
         aria-label="Global"
     >
-        <div class="flex items-center justify-between ">
-            <a
-                class="h-[42px] flex-none rounded-lg text-xl font-bold outline-none ring-zinc-500 focus-visible:ring dark:ring-zinc-200 dark:focus:outline-none"
-                href="/"
-                aria-label="Brand"
-            >
-                <BrandLogo class="h-full w-auto object-cover rounded-full" />
-            </a>
-
+        <div class="flex items-center justify-between">
             <div class="ml-auto md:hidden">
                 <button
                     type="button"
@@ -68,7 +63,7 @@ import { NavigationLinks } from '@/config'
             class="hs-collapse hidden grow basis-full overflow-hidden transition-all duration-300 md:block"
         >
             <div
-                class="mt-5 flex flex-col gap-x-0 gap-y-4 md:mt-0 md:flex-row md:items-center md:justify-end md:gap-x-4 lg:gap-x-7 md:gap-y-0 md:ps-7"
+                class="mt-5 flex flex-col gap-x-0 gap-y-4 md:mt-0 md:flex-row md:items-center md:justify-end md:gap-x-4 lg:gap-x-7 md:gap-y-0 md:ps-2"
             >
                 {NavigationLinks.map(link => (
                     <NavLink url={link.url} name={link.name} />
