@@ -1,12 +1,12 @@
 ---
-title: "我的 Sublime text 插件配置"
-description: "只从沾上了 sublime 这款编辑器，我对其他所有的都没爱了。"
-pubDate: "2018-04-04 07:29:58"
-category: "tool"
-banner: "@images/banners/_1564749562_U4OySY6DaY.jpg"
-tags: ["tool"]
+title: '我的 Sublime text 插件配置'
+description: '只从沾上了 sublime 这款编辑器，我对其他所有的都没爱了。'
+pubDate: '2018-04-04 07:29:58'
+category: 'tool'
+banner: '@images/banners/_1564749562_U4OySY6DaY.jpg'
+tags: ['tool']
 oldViewCount: 2367
-oldKeywords: ["null"]
+oldKeywords: ['null']
 ---
 
 首先，我应该正确安装了 [Package Control](https://packagecontrol.io/installation#st3)。
@@ -90,11 +90,11 @@ trim_trailing_whitespace = false
 
 ## 其他
 
-* All Autocomplete
-* ConvertToUTF8
-* DocBlockr
-* Emmet
-* Git
-* GitGutter
-* Laravel 5 Artisan
-* SideBarEnhancements
+- All Autocomplete
+- ConvertToUTF8
+- DocBlockr
+- Emmet
+- Git
+- GitGutter
+- Laravel 5 Artisan
+- SideBarEnhancements

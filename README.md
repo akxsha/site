@@ -56,7 +56,7 @@ With dependencies installed, you can utilize the following npm scripts to manage
 
 For detailed help with Astro CLI commands, visit [Astro's documentation](https://docs.astro.build/en/reference/cli-reference/).
 
-## Thanks 
+## Thanks
 
 Thanks https://github.com/mearashadowfax/ScrewFast, The majority of the code for this project comes from ScrewFast.
 
