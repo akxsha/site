@@ -5,6 +5,11 @@ import BaseLayout from '@layouts/BaseLayout.astro'
 import BlogInsight from '@components/blog/BlogInsight.astro'
 import FeaturesSection from '@components/ui/sections/FeaturesSection.astro'
 
+import '@fontsource-variable/bodoni-moda'
+import '@fontsource/paytone-one'
+import '@fontsource/bungee'
+import '@fontsource/bungee-outline'
+
 const posts: CollectionEntry<'posts'>[] = (await getCollection('posts'))
   .sort(
     (a: CollectionEntry<'posts'>, b: CollectionEntry<'posts'>) =>
@@ -15,15 +20,17 @@ const posts: CollectionEntry<'posts'>[] = (await getCollection('posts'))
 
 <BaseLayout>
   <div class='text-white'>
-    <h1>Concordance</h1>
-
-    <p>
+    <h1 class='text-[96px] font-paytone uppercase opacity-70 leading-tight'>
+      Concordance
+    </h1>
+    <p class='font-bungee text-[20px] text-[#4C5760] leading-tight'>
+      Pioneering the Future of On-Chain Data<br />with Research-Driven
+      Advancements
+    </p>
+    <p class='font-bodo text-[#4C5760] text-[24px]'>
       Concordance is putting data and privacy back where they belong—in your
       hands. Our groundbreaking suite of projects and tools is on the way. Stay
       tuned
-    </p>
-    <p>
-      Pioneering the Future of On-Chain Data with Research-Driven Advancements
     </p>
   </div>
 
@@ -46,4 +53,9 @@ const posts: CollectionEntry<'posts'>[] = (await getCollection('posts'))
       {posts.map((b) => <BlogInsight blog={b} />)}
     </div>
   </section>
+
+  <h1 class='text-6xl font-paytone'>Concordance</h1>
+  <h1 class='text-6xl font-bodo'>Concordance</h1>
+  <h1 class='text-6xl font-bungee'>Concordance</h1>
+  <h1 class='text-6xl font-bungee-out'>Concordance</h1>
 </BaseLayout>

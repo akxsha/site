@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
+import defaultTheme from 'tailwindcss/defaultTheme'
+
 export default {
   content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
   darkMode: 'class',
@@ -62,6 +64,12 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        paytone: ['Paytone One', ...defaultTheme.fontFamily.sans],
+        bodo: ['Bodoni Moda Variable', ...defaultTheme.fontFamily.sans],
+        bungee: ['Bungee', ...defaultTheme.fontFamily.sans],
+        'bungee-out': ['Bungee Outline', ...defaultTheme.fontFamily.sans],
+      },
       typography: ({ theme }) => ({
         blog: {
           css: {
