@@ -14,7 +14,7 @@ export const NavigationLinks: NavigationLink[] = [
   { name: 'Posts', url: '/posts' },
   // { name: 'Category', url: '/categories' },
   // { name: 'Timeline', url: '/timeline' },
-  { name: 'About', url: '/posts/about-godruoyi' },
+  { name: 'About', url: '/posts/about' },
   // { name: 'Friends', url: '/friends' },
 ]
 
@@ -25,7 +25,7 @@ export const FooterLinks = [
       { name: 'Posts', url: '/posts' },
       // { name: "Timeline", url: "/timeline" },
       { name: 'Categories', url: '/categories' },
-      { name: 'About', url: '/posts/about-godruoyi' },
+      { name: 'About', url: '/posts/about' },
     ],
   },
   {
