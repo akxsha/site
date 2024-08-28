@@ -1,7 +1,4 @@
 ---
-import footerBanner from 'images/footer-ponyo.png'
-import BrandLogo from '@components/ui/logos/BrandLogo.astro'
-import Image from '@components/ui/images/Image.astro'
 import { FooterLinks, SITE } from '@/config'
 ---
 
@@ -9,10 +6,7 @@ import { FooterLinks, SITE } from '@/config'
   <div
     class='mx-auto w-full max-w-[85rem] px-4 py-10 sm:px-6 lg:px-16 lg:pt-20 2xl:max-w-screen-2xl'
   >
-    <div class='grid grid-cols-2 sm:grid-cols-3 gap-6 md:grid-cols-5'>
-      <div class='col-span-full flex justify-center sm:grid sm:col-span-1'>
-        <BrandLogo class='h-auto w-28 rounded-full' />
-      </div>
+    <div class='gap-10 flex flex-col md:flex-row justify-center pb-10'>
       {
         FooterLinks.map((section) => (
           <div class='col-span-1 text-center'>
@@ -34,21 +28,6 @@ import { FooterLinks, SITE } from '@/config'
           </div>
         ))
       }
-
-      <div class='col-span-2 flex justify-center mt-10 md:mt-0'>
-        <div
-          class='max-w-[320px] max-h-[320px] -mt-16 scale-75 hidden md:block'
-        >
-          <Image
-            src={footerBanner}
-            alt={SITE.title}
-            class='h-full w-full object-cover object-center'
-            draggable='false'
-            loading='eager'
-            disableBlur={true}
-          />
-        </div>
-      </div>
     </div>
 
     <div class='flex items-center text-center justify-center'>
