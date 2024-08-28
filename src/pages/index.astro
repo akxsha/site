@@ -19,7 +19,8 @@ const posts: CollectionEntry<'posts'>[] = (await getCollection('posts'))
 ---
 
 <BaseLayout>
-  <div class='min-h-[50vh] flex flex-col justify-center'>
+  <h1 class='text-6xl font-bungee-out text-white/10 text-[35vh] absolute pointer-events-none top-[500px] left-[400px]'>Concordance</h1>
+  <div class='min-h-[65vh] flex flex-col justify-center'>
     <div class='text-white flex lg:flex-row flex-col gap-8 lg:gap-[80px]'>
       <div class='-mt-4'>
         <h1
@@ -29,9 +30,6 @@ const posts: CollectionEntry<'posts'>[] = (await getCollection('posts'))
         </h1>
         <p
           class='font-bungee text-[20px] text-[#4C5760] leading-tight md:text-[1.5vw]'
-          style={{
-            fontOpticalSizing: 'auto',
-          }}
         >
           Pioneering the Future of On-Chain Data<br />with Research-Driven
           Advancements
@@ -47,26 +45,25 @@ const posts: CollectionEntry<'posts'>[] = (await getCollection('posts'))
 
   <FeaturesSection />
 
-  <section
-    class='mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 2xl:max-w-full'
-  >
-    <div class='mx-auto mb-10 max-w-2xl text-center lg:mb-14'>
-      <h2
-        class='text-3xl font-bold text-neutral-800 dark:text-neutral-200 md:text-4xl md:leading-tight'
-      >
-        Latest Posts
-      </h2>
-      <!-- <p class="mt-1 text-pretty text-neutral-600 dark:text-neutral-400">
-                Always want to write something, but rarely actually do it
-            </p> -->
-    </div>
-    <div class='grid gap-6 sm:grid-cols-2 lg:grid-cols-3'>
-      {posts.map((b) => <BlogInsight blog={b} />)}
-    </div>
-  </section>
+  {posts.length > 2 && 
+    <section
+      class='mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 2xl:max-w-full'
+    >
+      <div class='mb-4'>
+        <h2
+          class='text-3xl font-bold text-neutral-800 dark:text-neutral-200 md:text-4xl md:leading-tight'
+        >
+          Latest Posts
+        </h2>
+        <!-- <p class="mt-1 text-pretty text-neutral-600 dark:text-neutral-400">
+                  Always want to write something, but rarely actually do it
+              </p> -->
+      </div>
+      <div class='grid gap-6 sm:grid-cols-2 lg:grid-cols-3'>
+        {posts.map((b) => <BlogInsight blog={b} />)}
+      </div>
+    </section>
+  }
 
-  <h1 class='text-6xl font-paytone'>Concordance</h1>
-  <h1 class='text-6xl font-bodo'>Concordance</h1>
-  <h1 class='text-6xl font-bungee'>Concordance</h1>
-  <h1 class='text-6xl font-bungee-out'>Concordance</h1>
+  <div class="pt-[200px]" />
 </BaseLayout>
