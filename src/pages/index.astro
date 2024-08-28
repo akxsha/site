@@ -19,19 +19,30 @@ const posts: CollectionEntry<'posts'>[] = (await getCollection('posts'))
 ---
 
 <BaseLayout>
-  <div class='text-white'>
-    <h1 class='text-[96px] font-paytone uppercase opacity-70 leading-tight'>
-      Concordance
-    </h1>
-    <p class='font-bungee text-[20px] text-[#4C5760] leading-tight'>
-      Pioneering the Future of On-Chain Data<br />with Research-Driven
-      Advancements
-    </p>
-    <p class='font-bodo text-[#4C5760] text-[24px]'>
-      Concordance is putting data and privacy back where they belong—in your
-      hands. Our groundbreaking suite of projects and tools is on the way. Stay
-      tuned
-    </p>
+  <div class='min-h-[50vh] flex flex-col justify-center'>
+    <div class='text-white flex lg:flex-row flex-col gap-8 lg:gap-[80px]'>
+      <div class='-mt-4'>
+        <h1
+          class='text-5xl md:text-[6vw] font-paytone uppercase opacity-70 leading-tight'
+        >
+          Concordance
+        </h1>
+        <p
+          class='font-bungee text-[20px] text-[#4C5760] leading-tight md:text-[1.5vw]'
+          style={{
+            fontOpticalSizing: 'auto',
+          }}
+        >
+          Pioneering the Future of On-Chain Data<br />with Research-Driven
+          Advancements
+        </p>
+      </div>
+      <p class='font-bodo text-[#4C5760] text-[24px] w-[472px]'>
+        Concordance is putting data and privacy back where they belong—in your
+        hands. Our groundbreaking suite of projects and tools is on the way.
+        Stay tuned
+      </p>
+    </div>
   </div>
 
   <FeaturesSection />
