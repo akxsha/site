@@ -1,4 +1,5 @@
 ---
+layout: 'layouts/AboutLayout.astro'
 title: 'About'
 description: 'About'
 pubDate: '2021-02-11 15:42:01'
