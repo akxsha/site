@@ -1,15 +1,20 @@
 ---
-title: 'First post'
+title: 'Oracles are Bridges'
 description: 'Ipsum velit velit proident consequat.'
-pubDate: '2021-02-11 15:42:01'
-category: 'test'
+pubDate: '2024-08-20 15:42:01'
+category: 'life'
 banner: '@images/banners/annie-spratt-Ptj8t_TXjdg-unsplash.jpg'
 tags: ['life', 'other']
-oldViewCount: 0
-oldKeywords: ['2020年终总结']
 ---
 
 > Some quote
+
+And bridges are oracles. All data not available native to a blockchain must be brought on chain my a trusted intermediary, be it a bridge, or an oracle. All are succespitable to liquidity pooling and hacks. 
+
+Look at the top examples hacks, they are bridges and oracles. 
+
+
+Furthermore, all bridges, oracles, etc are abstractions of the data problem on chain. Bringing data. 
 
 In ipsum pariatur cillum in. Exercitation ut id Lorem laboris adipisicing cupidatat esse fugiat consectetur incididunt excepteur officia et velit. Magna irure tempor officia elit ipsum adipisicing. Mollit exercitation eu aute aute velit Lorem pariatur. Cupidatat ullamco qui et dolore deserunt.
 

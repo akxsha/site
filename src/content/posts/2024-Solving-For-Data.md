@@ -1,8 +1,7 @@
 ---
-layout: 'layouts/AboutLayout.astro'
-title: 'About'
-description: 'About'
-pubDate: '2021-02-11 15:42:01'
+title: 'Web 3.0 is not here yet'
+description: 'Ipsum velit velit proident consequat.'
+pubDate: '2024-08-22 15:42:01'
 category: 'life'
 banner: '@images/banners/annie-spratt-Ptj8t_TXjdg-unsplash.jpg'
 tags: ['life', 'other']
@@ -10,14 +9,12 @@ tags: ['life', 'other']
 
 > Some quote
 
-Blockchain is revolutionary for its solutions in the distributed compute field. 
-<br>
-For modern day apps, compute alone is not enough. 
+The Blockchain community has only solved for compute. The most highly adopted system architecture for a decentralized Apps have an offchain routing and data storage component. 
 
-The conterporary web is interactive. The current finite automata is not enough to be a true alternative to web 2.0 without interactivity. 
 
-Concordance was founded to address web 3.0 data gap.
-Some of our boldest opinions can be found in initial blog posts. We challenge the blockchain community to xyz....
+And bridges are oracles. All data not available native to a blockchain must be brought on chain my a trusted intermediary, be it a bridge, or an oracle. All are succespitable to liquidity pooling and hacks. 
+
+Look at the top examples hacks, they are bridges and oracles. 
 
 
 In ipsum pariatur cillum in. Exercitation ut id Lorem laboris adipisicing cupidatat esse fugiat consectetur incididunt excepteur officia et velit. Magna irure tempor officia elit ipsum adipisicing. Mollit exercitation eu aute aute velit Lorem pariatur. Cupidatat ullamco qui et dolore deserunt.
@@ -28,7 +25,7 @@ Exercitation incididunt cillum incididunt irure laboris qui reprehenderit sunt c
 
 Labore laboris est aliquip culpa enim non cillum fugiat culpa tempor.
 
-- [x] Fugiat consequat anim id ad incididunt duis adipisicing est aliqua est excepteur.
+- [ ] Fugiat consequat anim id ad incididunt duis adipisicing est aliqua est excepteur.
 - [ ] Ipsum voluptate cillum laboris culpa.
 - [ ] Minim ex incididunt nisi veniam nulla velit quis nostrud veniam reprehenderit ad deserunt nostrud.
 - [ ] Sit non ex excepteur sint elit sunt ex cillum elit nostrud ex incididunt aute.
