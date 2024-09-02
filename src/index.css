@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Amstelvar';
+  src: url('Amstelvar-Roman.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* co for concordance */
 
 .co-highlight {
