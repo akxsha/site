@@ -73,6 +73,8 @@ export default {
         bodo: ['Bodoni Moda Variable', ...defaultTheme.fontFamily.sans],
         bungee: ['Bungee', ...defaultTheme.fontFamily.sans],
         'bungee-out': ['Bungee Outline', ...defaultTheme.fontFamily.sans],
+        amstelvar: ['Amstelvar', ...defaultTheme.fontFamily.sans],
+        departure: ['Departure Mono', ...defaultTheme.fontFamily.mono],
       },
       typography: ({ theme }) => ({
         blog: {
