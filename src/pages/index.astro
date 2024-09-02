@@ -21,8 +21,8 @@ const posts: CollectionEntry<'posts'>[] = (await getCollection('posts'))
 <BaseLayout>
   <h1 class='text-6xl font-bungee-out text-white/10 text-[35vh] absolute pointer-events-none top-[500px] left-[400px]'>Concordance</h1>
   <div class='min-h-[65vh] flex flex-col justify-center'>
-    <div class='text-white flex lg:flex-row flex-col gap-8 lg:gap-[80px]'>
-      <div class='-mt-4'>
+    <div class='text-white flex lg:flex-row flex-col gap-8 lg:gap-0'>
+      <div class='-mt-5'>
         <h1
           class='text-5xl md:text-[6vw] font-paytone uppercase opacity-70 leading-tight'
         >
@@ -35,10 +35,12 @@ const posts: CollectionEntry<'posts'>[] = (await getCollection('posts'))
           Advancements
         </p>
       </div>
-      <p class='font-bodo text-[#1574AB] text-[24px] w-[472px]'>
+      <div class="flex justify-center flex-grow">
+        <p class='font-bodo text-[#1574AB] text-[24px] max-w-[472px]'>
         Concordance is setting a new standard in data ownership, putting control directly in the hands of individuals. 
         Our suite of decentralized, privacy-first solutions are on the way. 
       </p>
+      </div>
     </div>
   </div>
 
