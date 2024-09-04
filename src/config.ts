@@ -54,7 +54,7 @@ export const Settings = {
 
   Assets: {
     // If you don't want to upload the build assert(image/js/css/etc...) anywhere, simply set this to false
-    uploadAssetsToS3: isProd(),
+    uploadAssetsToS3: false,
     config: {
       // see https://github.com/syhily/astro-uploader to get how to configure the uploader API
       // The following configuration will upload the compiled `assets` directory to the `gblog` folder in S3 or R2.
