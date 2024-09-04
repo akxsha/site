@@ -47,8 +47,8 @@ export default defineConfig({
   },
   prefetch: true,
   output: 'static',
-  build: {
-    assets: 'assets',
-    assetsPrefix: 'https://images.godruoyi.com/gblog',
-  },
+  // build: {
+  //   assets: 'assets',
+  //   assetsPrefix: 'https://images.godruoyi.com/gblog',
+  // },
 })
