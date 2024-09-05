@@ -2,8 +2,8 @@ import { isProd } from './support/envs.ts'
 import type { NavigationLink, Site } from './types.ts'
 
 export const SITE: Site = {
-  author: 'Godruoyi',
-  url: 'https://godruoyi.com',
+  author: 'Concordance',
+  url: 'https://concordance.dev',
   title: 'Concordance',
   description: 'Concordance',
   shortDescription: '',
@@ -32,10 +32,10 @@ export const FooterLinks = [
     section: 'Other',
     links: [
       { name: 'Email', url: 'mailto:hello@concordance.com' },
-      { name: 'Twitter', url: 'https://x.com/godruoyi' },
-      { name: 'Discord', url: 'https://discord.com' },
-      // { name: "Site Map", url: "/sitemap-index.xml" },
-      { name: 'Github', url: 'https://github.com' },
+      //{ name: 'Twitter', url: 'https://x.com/' },
+      //{ name: 'Discord', url: 'https://discord.com' },
+      //{ name: "Site Map", url: "/sitemap-index.xml" },
+      //{ name: 'Github', url: 'https://github.com' },
       { name: 'RSS', url: '/rss.xml' },
     ],
   },

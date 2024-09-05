@@ -10,6 +10,12 @@ tags: ['life', 'other']
 
 > Some quote
 
+## Our Team
+
+### Meet Us at Conferences 
+#### Permissionless [October '24]
+#### DEVCON [November '24]
+## Our Beliefs
 Blockchain is revolutionary for its solutions in the distributed compute field. 
 <br>
 For modern day apps, compute alone is not enough. 

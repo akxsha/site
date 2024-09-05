@@ -1,14 +1,33 @@
-<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g clip-path="url(#clip0_49_5)">
-<rect width="512" height="512" rx="256" fill="#FACC14"/>
-<rect x="16" y="16" width="480" height="480" rx="240" fill="url(#pattern0_49_5)"/>
-</g>
-<defs>
-<pattern id="pattern0_49_5" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_49_5" transform="scale(0.00217391)"/>
-</pattern>
-<clipPath id="clip0_49_5">
-<rect width="512" height="512" fill="white"/>
-</clipPath>
-</defs>
-</svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="142.23621mm"
+   height="139.60435mm"
+   viewBox="0 0 142.23621 139.60435"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1"><rect
+       x="46.005939"
+       y="478.71045"
+       width="246.19395"
+       height="241.22034"
+       id="rect2" /></defs><g
+     id="layer1"
+     transform="translate(-23.958245,-55.540703)"><ellipse
+       style="fill:#262626;fill-opacity:1;stroke:#3871e0;stroke-width:8.46237;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="path1"
+       cx="95.076347"
+       cy="125.34287"
+       rx="66.886917"
+       ry="65.570984" /><text
+       xml:space="preserve"
+       transform="matrix(0.77090236,0,0,0.75778919,-47.006662,-303.3851)"
+       id="text2"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:192px;line-height:1;font-family:'Paytone One';-inkscape-font-specification:'Paytone One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect2);display:inline;fill:#bebebe;fill-opacity:1;stroke-width:6.06614;stroke-linejoin:bevel;paint-order:markers stroke fill"><tspan
+         x="112.36658"
+         y="631.7883"
+         id="tspan1">C</tspan></text></g></svg>
