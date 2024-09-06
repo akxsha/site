@@ -7,6 +7,34 @@
 }
 
 @font-face {
+  font-family: 'Amstelvar Heading';
+  src: url('/amstelvar-roman.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.font-amstelvar-heading {
+  font-variation-settings:
+    'wght' 484,
+    'wdth' 100.25,
+    'opsz' 90,
+    'GRAD' 4,
+    'XTRA' 561,
+    'XOPQ' 174.8,
+    'YOPQ' 123.81,
+    'YTLC' 499.5,
+    'YTUC' 750,
+    'YTAS' 765.65,
+    'YTDE' -239.36,
+    'YTFI' 758.5
+}
+
+.co-opsz-60 {
+  font-variation-settings: 'opsz' 60;
+}
+
+@font-face {
   font-family: 'Departure Mono';
   src: url('/departure-mono-regular.woff2') format('woff2');
   font-weight: normal;
