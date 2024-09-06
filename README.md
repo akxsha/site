@@ -1,14 +1,10 @@
-### Deploy to Vercel
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fgodruoyi%2Fgblog%2Ftree%2Fgblog-template&project-name=gblog&repository-name=my-gblog&demo-title=%E8%BF%9E%E6%B3%A2%E7%9A%84%E9%97%B2%E8%B0%88%E6%9D%82%E9%B1%BC&demo-description=Godruoyi's%20private%20blog&demo-url=https%3A%2F%2Fgodruoyi.com)
-
+# README
 
 ### Build from Source
 
-1. Clone the `gblog-template` branch of this repository `git clone -b gblog-template git@github.com:godruoyi/gblog.git`
-2. Execute `pnpm install` to install dependencies.
-3. Modify the `src/config.ts` file to what you want.
-4. Execute `pnpm run dev`: Starts a local development server with hot reloading enabled.
+1. Execute `pnpm install` to install dependencies.
+2. Modify the `src/config.ts` file to what you want.
+3. Execute `pnpm run dev`: Starts a local development server with hot reloading enabled.
 
 ### Development Commands
 
@@ -23,7 +19,3 @@ For detailed help with Astro CLI commands, visit [Astro's documentation](https:/
 ## Thanks 
 
 Thanks https://github.com/mearashadowfax/ScrewFast, The majority of the code for this project comes from ScrewFast.
-
-## License
-
-This project is released under the MIT License. Please read the [LICENSE](https://github.com/godruoyi/gblog/blob/astro/LICENSE) file for more details.

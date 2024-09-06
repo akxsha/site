@@ -42,7 +42,7 @@ function BlogComments() {
       {mounted ? (
         <Giscus
           id={id}
-          repo='godruoyi/gblog'
+          repo='cncordance/site'
           repoId='MDEwOlJlcG9zaXRvcnkxMjcyODI0NzA'
           category='Announcements'
           categoryId='DIC_kwDOB5YtJs4CfZnX'
