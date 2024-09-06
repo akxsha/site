@@ -6,61 +6,18 @@ import { NavigationLinks } from '@/config'
 ---
 
 <header
-  class='sticky inset-x-0 top-4 z-50 flex w-full flex-wrap text-sm md:flex-nowrap md:justify-start'
+  class='fixed top-0 right-0 inset-x-0 z-50 flex w-full flex-wrap text-sm md:flex-nowrap md:justify-start'
 >
   <!-- <div class='text-white'>Logo</div> -->
   <nav
     class='ml-auto'
     aria-label='Global'
   >
-    <div class='flex items-center justify-between'>
-      <div class='ml-auto md:hidden'>
-        <button
-          type='button'
-          class='hs-collapse-toggle flex h-8 w-8 items-center justify-center rounded-full text-sm font-bold text-neutral-600 transition duration-300 hover:bg-neutral-200 disabled:pointer-events-none disabled:opacity-50 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:focus:outline-none'
-          data-hs-collapse='#navbar-collapse-with-animation'
-          aria-controls='navbar-collapse-with-animation'
-          aria-label='Toggle navigation'
-        >
-          <svg
-            class='h-[1.25rem] w-[1.25rem] flex-shrink-0 hs-collapse-open:hidden'
-            width='24'
-            height='24'
-            viewBox='0 0 24 24'
-            fill='none'
-            stroke='currentColor'
-            stroke-width='2'
-            stroke-linecap='round'
-            stroke-linejoin='round'
-          >
-            <line x1='3' x2='21' y1='6' y2='6'></line>
-            <line x1='3' x2='21' y1='12' y2='12'></line>
-            <line x1='3' x2='21' y1='18' y2='18'></line>
-          </svg>
-          <svg
-            class='hidden h-[1.25rem] w-[1.25rem] flex-shrink-0 hs-collapse-open:block'
-            width='24'
-            height='24'
-            viewBox='0 0 24 24'
-            fill='none'
-            stroke='currentColor'
-            stroke-width='2'
-            stroke-linecap='round'
-            stroke-linejoin='round'
-          >
-            <path d='M18 6 6 18'></path>
-            <path d='m6 6 12 12'></path>
-          </svg>
-        </button>
-      </div>
-    </div>
-
     <div
-      id='navbar-collapse-with-animation'
-      class='hs-collapse hidden grow basis-full overflow-hidden transition-all duration-300 md:block'
+      class='hs-collapse grow basis-full overflow-hidden transition-all duration-300 md:block backdrop-blur-md p-3 px-6 bg-neutral-700/80'
     >
       <div
-        class='mt-5 flex flex-col gap-x-0 gap-y-4 md:mt-0 md:flex-row md:items-center md:justify-end md:gap-x-4 lg:gap-x-7 md:gap-y-0 md:ps-2'
+        class='flex flex-row items-center justify-end gap-4'
       >
         {
           NavigationLinks.map((link) => (
@@ -71,4 +28,6 @@ import { NavigationLinks } from '@/config'
     </div>
   </nav>
 </header>
+<!-- spacing below nav -->
+<div class="pt-20" />
 
