@@ -20,7 +20,7 @@ const posts: CollectionEntry<'posts'>[] = (await getCollection('posts'))
 
 <BaseLayout>
   <h1 class='text-6xl font-bungee-out text-white/10 text-[35vh] absolute pointer-events-none top-[500px] left-[400px]'>Concordance</h1>
-  <div class='min-h-[65vh] flex flex-col justify-center'>
+  <div class='min-h-[80vh] flex flex-col justify-center'>
     <div class='text-white flex lg:flex-row flex-col gap-8 lg:gap-0'>
       <div class='-mt-5'>
         <h1
@@ -42,7 +42,7 @@ const posts: CollectionEntry<'posts'>[] = (await getCollection('posts'))
     </div>
   </div>
 
-  <FeaturesSection />
+  <!-- <FeaturesSection /> -->
 
   {posts.length > 2 && 
     <section
