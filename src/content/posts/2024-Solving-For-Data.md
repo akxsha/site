@@ -1,5 +1,5 @@
 ---
-title: 'Web 3.0 is not here yet'
+title: 'Web3 is not here...yet'
 description: 'Ipsum velit velit proident consequat.'
 pubDate: '2024-08-22 15:42:01'
 category: 'life'
@@ -11,15 +11,7 @@ tags: ['life', 'other']
 
 The Blockchain community has only solved for compute. The most highly adopted system architecture for a decentralized Apps have an offchain routing and data storage component. 
 
-
-And bridges are oracles. All data not available native to a blockchain must be brought on chain my a trusted intermediary, be it a bridge, or an oracle. All are succespitable to liquidity pooling and hacks. 
-
-Look at the top examples hacks, they are bridges and oracles. 
-
-
-In ipsum pariatur cillum in. Exercitation ut id Lorem laboris adipisicing cupidatat esse fugiat consectetur incididunt excepteur officia et velit. Magna irure tempor officia elit ipsum adipisicing. Mollit exercitation eu aute aute velit Lorem pariatur. Cupidatat ullamco qui et dolore deserunt.
-
-Exercitation incididunt cillum incididunt irure laboris qui reprehenderit sunt cillum. Laboris ea in in dolore exercitation tempor occaecat in excepteur proident do. Quis magna mollit ipsum qui. Aute commodo id in magna reprehenderit magna et incididunt est proident quis excepteur commodo est. Ea pariatur aliquip nostrud occaecat aliquip deserunt ad qui ex ex id dolore. Id dolor sit elit fugiat.
+This is because blockchain has to make certain assurances for users. A deterministic automata promises . Indeterminite automato creates opportunity for byzantine. 
 
 ## Amet minim ex anim quis ullamco reprehenderit et fugiat.
 

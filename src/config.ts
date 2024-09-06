@@ -11,7 +11,7 @@ export const SITE: Site = {
 
 export const NavigationLinks: NavigationLink[] = [
   { name: 'Home', url: '/' },
-  { name: 'Posts', url: '/posts' },
+  { name: 'Blog', url: '/posts' },
   // { name: 'Category', url: '/categories' },
   // { name: 'Timeline', url: '/timeline' },
   { name: 'About', url: '/about' },
@@ -22,7 +22,7 @@ export const FooterLinks = [
   {
     section: 'Blog',
     links: [
-      { name: 'Posts', url: '/posts' },
+      { name: 'Blog Posts', url: '/posts' },
       // { name: "Timeline", url: "/timeline" },
       { name: 'Categories', url: '/categories' },
       { name: 'About', url: '/about' },
@@ -31,7 +31,7 @@ export const FooterLinks = [
   {
     section: 'Other',
     links: [
-      { name: 'Email', url: 'mailto:hello@concordance.com' },
+      { name: 'Email', url: 'mailto:hello@concordance.dev' },
       //{ name: 'Twitter', url: 'https://x.com/' },
       //{ name: 'Discord', url: 'https://discord.com' },
       //{ name: "Site Map", url: "/sitemap-index.xml" },

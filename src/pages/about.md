@@ -7,15 +7,14 @@ category: 'life'
 banner: '@images/banners/annie-spratt-Ptj8t_TXjdg-unsplash.jpg'
 tags: ['life', 'other']
 ---
+<br>
+<br>
 
-> Some quote
+Founded on the belief that 
+We dare to challenge the current paradigm of the internet, and imagine a internet that
+Concordance is a team focused on giving users privacy through a new internet. 
 
-## Our Team
 
-### Meet Us at Conferences 
-#### Permissionless [October '24]
-#### DEVCON [November '24]
-## Our Beliefs
 Blockchain is revolutionary for its solutions in the distributed compute field. 
 <br>
 For modern day apps, compute alone is not enough. 
@@ -26,19 +25,15 @@ Concordance was founded to address web 3.0 data gap.
 Some of our boldest opinions can be found in initial blog posts. We challenge the blockchain community to xyz....
 
 
-In ipsum pariatur cillum in. Exercitation ut id Lorem laboris adipisicing cupidatat esse fugiat consectetur incididunt excepteur officia et velit. Magna irure tempor officia elit ipsum adipisicing. Mollit exercitation eu aute aute velit Lorem pariatur. Cupidatat ullamco qui et dolore deserunt.
+## Contact 
 
-Exercitation incididunt cillum incididunt irure laboris qui reprehenderit sunt cillum. Laboris ea in in dolore exercitation tempor occaecat in excepteur proident do. Quis magna mollit ipsum qui. Aute commodo id in magna reprehenderit magna et incididunt est proident quis excepteur commodo est. Ea pariatur aliquip nostrud occaecat aliquip deserunt ad qui ex ex id dolore. Id dolor sit elit fugiat.
+### Conferences we will be attending 
+#### Permissionless [October '24]
+#### DEVCON [November '24]
+<br>
 
-## Amet minim ex anim quis ullamco reprehenderit et fugiat.
+#### Reach the team any time at <mark> hello [at] concordance.dev </mark>
 
-Labore laboris est aliquip culpa enim non cillum fugiat culpa tempor.
-
-- [x] Fugiat consequat anim id ad incididunt duis adipisicing est aliqua est excepteur.
-- [ ] Ipsum voluptate cillum laboris culpa.
-- [ ] Minim ex incididunt nisi veniam nulla velit quis nostrud veniam reprehenderit ad deserunt nostrud.
-- [ ] Sit non ex excepteur sint elit sunt ex cillum elit nostrud ex incididunt aute.
-
-Velit consequat adipisicing aliquip adipisicing cupidatat dolore magna non quis qui ad. Sunt in ut est fugiat anim deserunt anim voluptate consectetur sunt. Aliqua cillum tempor aliquip excepteur sint do nisi eu deserunt sit culpa nisi. Tempor dolor culpa esse nostrud velit aute dolore. Excepteur occaecat aute ullamco pariatur voluptate velit amet proident consequat do.
-
-Ullamco Lorem ullamco id occaecat ad incididunt. In officia minim exercitation magna ea dolore eu ut aliqua id esse. Proident ex enim consequat quis duis laboris id magna nulla eiusmod pariatur enim aliquip. Veniam nulla laboris consequat commodo nisi. Ex id mollit nisi adipisicing consequat esse fugiat sunt elit mollit sint ex est excepteur. Sint est qui ad do cillum dolor sit.
+<br>
+<br>
+<br>
