@@ -25,7 +25,7 @@ const {
 const normalizeTitle = !title ? SITE.title : `${title} | ${SITE.title}`
 ---
 
-<html lang={lang} class='scrollbar-hide scroll-pt-16'>
+<html lang={lang} class='scrollbar-hide scroll-pt-16 dark'>
   <head>
     <title>{normalizeTitle}</title>
     <BaseHead
@@ -36,17 +36,6 @@ const normalizeTitle = !title ? SITE.title : `${title} | ${SITE.title}`
       ogDescription={description}
       structuredData={structuredData}
     />
-    <script is:inline>
-      if (
-        localStorage.getItem('hs_theme') === 'dark' ||
-        (!('hs_theme' in localStorage) &&
-          window.matchMedia('(prefers-color-scheme: dark)').matches)
-      ) {
-        document.documentElement.classList.add('dark')
-      } else {
-        document.documentElement.classList.remove('dark')
-      }
-    </script>
     <GoogleAnalytics />
     <UmamiAnalytics />
   </head>
