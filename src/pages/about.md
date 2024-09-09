@@ -10,31 +10,35 @@ tags: ['life', 'other']
 <br>
 <br>
 
-We build for a feature rich blockchain without trusted intermidiaries. 
+We build for a feature-rich web without trusted intermediaries.
 
-Founded on the belief that ____, Concordance is a public goods lab challenging the current paradigm of web infrastructure. We envision and design for an internet where personal data never leaves the hand of the owner.
+Founded on the belief that everyone has a right to transparency, Concordance is a public goods lab challenging the current paradigm of web infrastructure. We envision and design tools for a future where personal data never leaves the hand of its owner.
+<!---
+### Mission 
+Blockchain is revolutionary for its research, discovery, and solutions in the fields of cryptography and distributed compute.
+The conterporary web is interactive and blockchain (stack-based deterministic finite automata). 
+This limits web3 builders, who design dApps with some blockchain compute for settlement, but then must fallback to web2 app architecture for the rest of the system model. This creates opacity and reintroduces centralization in an attempt to optimize the user experience. 
 
-Mission
-Blockchain is revolutionary for its solutions in the distributed compute field.
-For modern day apps, compute alone is not enough. 
-Concordance's misison is to create a true alternate to web2 with offerings so superior to web2 that it would be determental not to adopt. Web3 must answer for the entire stack of web architecture, not through direct replication the design of web 2, but by first understanding the aims of the current system, and manufacturing anew according to these aims.   
+Concordance builds solutions that answer for the entire stack of web architecture, not through direct replication the design of web 2, but by first understanding the aims of the current system, and manufacturing anew according to these aims.   
 
-The conterporary web is interactive. Stack-based deterministic finite automata is not enough to be a true alternative to web 2.0 without interactivity. This forces web apps to build with minimal blockchain compute, and primary offchain compute, leading to centralization for the sake of user experience. 
+__Concordance's misison is to create a stratum true alternate to web2 with offerings so superior, it would be determental for institutions not to adopt.__
 
-Vision
-Concordance was founded to address web 3.0 interactivity gap. Some of our boldest opinions can be found in initial blog posts. We challenge the blockchain community not with specator opinions, but by entering the area. 
+### Vision
+The Concordance was founded to address Web3 interactivity gap. We envision a world where personal data never sits inside a privately-owned server, where a business the power to send that data externally, make judgements on a person because of their biased algorithms, or alter pricing 
 
-Intent-centric solution. 
+__We envision a world with transparancy, eliminating data leaks, abolishing direct data transmission, and randsomware becomes an issue of the past.__
 
+Some of our boldest opinions can be found in our blog posts. 
+We challenge the blockchain community not with citiques as a specator, but by entering the area and forging solutions that make the system stronger.
+-->
 
-## Contact 
+### Connect with Us 
 
-### Conferences we will be attending 
-#### Permissionless [October '24]
-#### DEVCON [November '24]
-<br>
-
-#### Reach the team any time at <mark> hello [at] concordance.dev </mark>
+#### In Person 
+Permissionless [October '24] <br>
+DEVCON [November '24]
+#### Online
+Reach the team any time at __hello [at] concordance.dev__.
 
 <br>
 <br>
