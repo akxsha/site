@@ -1,9 +1,9 @@
 ---
 title: 'Oracles are Bridges'
-description: 'Everyone is an abstracted trusted intermediary.'
+description: 'Building a mental model for data abstraction.'
 pubDate: '2024-08-20 15:42:01'
 category: 'life'
-banner: '@images/banners/fut-bridge.jpg'
+banner: '@images/banners/tunnel.png'
 tags: ['other']
 ---
 
@@ -16,7 +16,7 @@ L2s compress data from alterate networks to be verified by the L1s security mode
 And bridges are oracles. 
 These technolgies are abstractions of the same concept; providing data not available native to a blockchain must be brought on chain my a trusted intermediary, be it a bridge, or an oracle. All are succespitable to liquidity pooling and hacks. 
 
-The question then changes from how do we provide data to the native system while optimizing for certain constraints like, but instead the question is how do we remove the need for an intermediary to provide the data, and give users the ability to 
+The question then changes from how do we provide data to the native system while optimizing for certain constraints like, but instead the question is how do we remove the need for an intermediary to provide the data, and give users the ability to have native data interacion? 
 
 Any technology built on top of ethereum does not have the ability to impact the ethereum network. 
 
@@ -31,3 +31,5 @@ This is because blockchain has to make certain assurances for users. A determini
 
 ## Amet minim ex anim quis ullamco reprehenderit et fugiat.
 
+Photo by <a href="https://unsplash.com/@drmakete?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">drmakete lab</a> on <a href="https://unsplash.com/photos/the-reflection-of-the-sky-in-the-glass-of-a-building-hsg538WrP0Y?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  

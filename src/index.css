@@ -55,3 +55,13 @@ a.co-highlight:hover {
   background-position: left bottom;
   transition: background 0.25s ease;
 }
+
+.blink_me {
+  animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+  70% {
+    opacity: 0;
+  }
+}

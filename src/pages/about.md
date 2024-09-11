@@ -12,8 +12,9 @@ tags: ['life', 'other']
 
 We build for a feature-rich web without trusted intermediaries.
 
-Founded on the belief that everyone has a right to transparency, Concordance is a public goods lab challenging the current paradigm of web infrastructure. We envision and design tools for a future where personal data never leaves the hand of its owner.
+Concordance is a public goods lab challenging the current paradigm of web infrastructure. We envision and design tools for a future where personal data never leaves the hand of its owner.
 <!---
+Founded on the belief that everyone has a right to transparency, 
 ### Mission 
 Blockchain is revolutionary for its research, discovery, and solutions in the fields of cryptography and distributed compute.
 The conterporary web is interactive and blockchain (stack-based deterministic finite automata). 
