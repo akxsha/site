@@ -11,7 +11,7 @@ export const SITE: Site = {
 
 export const NavigationLinks: NavigationLink[] = [
   { name: 'Home', url: '/' },
-  { name: 'Blog', url: '/posts' },
+  // { name: 'Blog', url: '/posts' },
   // { name: 'Category', url: '/categories' },
   // { name: 'Timeline', url: '/timeline' },
   { name: 'About', url: '/about' },
