@@ -66,12 +66,11 @@ a.co-highlight:hover {
   }
 }
 
-
 .lava {
   background-size: 300%;
-  background-image: radial-gradient(circle, #feb47b8d, #FFFFFF80, #eab2086e, #FFFFFF80);
+  background-image: radial-gradient(circle, #eab2086e, #FFFFFF80, #feb47b51, #FFFFFF80);
   animation-name: lavaLampEffect;
-  animation-duration: 50s;
+  animation-duration: 40s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   background-position: 0% 50%;
@@ -101,3 +100,4 @@ a.co-highlight:hover {
     background-position: 0% 50%;
   }
 }
+

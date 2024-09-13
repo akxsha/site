@@ -12,7 +12,7 @@ tags: ['life', 'other']
 
 We build for a feature-rich web without trusted intermediaries.
 
-Concordance is a public goods lab challenging the current paradigm of web infrastructure. We envision and design tools for a future where personal data never leaves the hand of its owner.
+Concordance is a public goods lab challenging the current paradigm of web infrastructure. We envision and design tools for a future where personal data never lives outside of the control of the individual.
 <!---
 Founded on the belief that everyone has a right to transparency, 
 ### Mission 
