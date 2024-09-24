@@ -1,17 +1,27 @@
 ---
 import BaseLayout from './BaseLayout.astro'
+import '../index.css'
 ---
 
 <BaseLayout title='About' description='About'>
   <!-- class stolen from posts/slug -->
-  <h2
-    class='block text-balance text-3xl font-bold  text-neutral-500 dark:text-neutral-300 md:text-4xl lg:text-5xl'
-  >
-    About
-  </h2>
+  <div class="page-container">
+    <h2
+      class='block text-balance text-3xl text-neutral-500 dark:text-neutral-300 md:text-4xl lg:text-5xl'
+    >
+      About
+    </h2>
 
-  <!-- class stolen from posts/slug -->
-  <article class='prose prose-blog sm:prose-lg text-neutral-350 dark:prose-invert max-w-none'>
-    <slot />
-  </article>
+    <!-- class stolen from posts/slug -->
+    <article class='prose prose-blog sm:prose-lg text-neutral-200 dark:prose-invert max-w-none'>
+      <slot />
+    </article>
+  </div>
+  <style>
+     .page-container {
+       margin: 0 auto; /* Centers the content */
+       max-width: 1200px; /* Optional max-width */
+       padding: 1rem; /* Adds inner spacing */
+     }
+   </style>
 </BaseLayout>
