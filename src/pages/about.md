@@ -7,7 +7,6 @@ category: 'life'
 banner: '@images/banners/annie-spratt-Ptj8t_TXjdg-unsplash.jpg'
 tags: ['life', 'other']
 ---
-<br>
 
 We build for a feature-rich web without trusted intermediaries.
 
