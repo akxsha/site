@@ -25,7 +25,7 @@ const {
 const normalizeTitle = !title ? SITE.title : `${title} | ${SITE.title}`
 ---
 
-<html lang={lang} class='dark'>
+<html lang={lang}>
   <head>
     <title>{normalizeTitle}</title>
     <BaseHead
@@ -40,30 +40,12 @@ const normalizeTitle = !title ? SITE.title : `${title} | ${SITE.title}`
     <UmamiAnalytics />
   </head>
   <body
-    class='bg-neutral-200 selection:bg-[#010B1B] selection:text-neutral-700 dark:bg-[#010B1B] overflow-x-hidden font-amstelvar-heading'
+    class='text-[#010b1b] selection:bg-[#010B1B] selection:text-neutral-700 dark:bg-[#010B1B] overflow-x-hidden font-amstelvar'
   >
-    <div class="gradient-overlay">
-      <div class='mx-auto max-w-screen-2xl px-4 sm:px-6 lg:px-8'>
+      <div class='mx-auto max-w-screen-2xl px-4 sm:px-6 lg:px-8 min-h-screen flex flex-col mt-2'>
         <Header />
-        <main>
-          <slot />
-        </main>
+        <slot />
       </div>
       <!-- <Footer /> -->
-    </div>
-
-    <style>
-     .gradient-overlay {
-        background: linear-gradient(135deg, #010B1B, #feb47b);
-        min-height: 100vh; /* Ensures the gradient covers the full page */
-      }
-      .scrollbar-hide::-webkit-scrollbar {
-        display: none;
-      }
-      .scrollbar-hide {
-        -ms-overflow-style: none;
-        scrollbar-width: none;
-      }
-    </style>
   </body>
 </html>

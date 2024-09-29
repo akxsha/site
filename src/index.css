@@ -27,7 +27,75 @@
     'YTUC' 750,
     'YTAS' 765.65,
     'YTDE' -239.36,
-    'YTFI' 758.5
+    'YTFI' 758.5;
+}
+
+.font-amstelvar-lead {
+  /* @apply text-xl md:text-2xl lg:text-4xl; */
+  font-family: 'Amstelvar';
+  font-style: normal;
+  /* font-size: 32px; */
+  line-height: 130%;
+  letter-spacing: 0.03em;
+
+  font-stretch: 100;
+  font-variation-settings:
+    'wght' 333,
+    'GRAD' 108,
+    'XTRA' 562,
+    'XOPQ' 176,
+    'YOPQ' 124,
+    'YTLC' 500,
+    'YTUC' 750,
+    'YTAS' 767,
+    'YTDE' -240,
+    'YTFI' 760,
+    'opsz' 63;
+}
+
+.font-amstelvar-bold-body {
+  font-family: 'Amstelvar';
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  font-variation-settings:
+    'wdth' 113,
+    'wght' 675,
+    'GRAD' 219,
+    'XTRA' 562,
+    'XOPQ' 64,
+    'YOPQ' 124,
+    'YTLC' 500,
+    'YTUC' 750,
+    'YTAS' 767,
+    'YTDE' -240,
+    'YTFI' 760,
+    'opsz' 36;
+}
+
+.font-amstelvar-button-text {
+  font-family: 'Amstelvar';
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+  font-variation-settings:
+    'wdth' 100,
+    'wght' 400,
+    'GRAD' 0,
+    'XTRA' 562,
+    'XOPQ' 177,
+    'YOPQ' 124,
+    'YTLC' 500,
+    'YTUC' 750,
+    'YTAS' 767,
+    'YTDE' -240,
+    'YTFI' 760;
 }
 
 .co-opsz-60 {
@@ -56,6 +124,11 @@ a.co-highlight:hover {
   transition: background 0.25s ease;
 }
 
+[aria-current='page'] {
+  background-color: black;
+  color: white;
+}
+
 .blink_me {
   animation: blinker 1.5s linear infinite;
 }
@@ -68,7 +141,13 @@ a.co-highlight:hover {
 
 .lava {
   background-size: 300%;
-  background-image: radial-gradient(circle, #eab2086e, #FFFFFF80, #feb47b51, #FFFFFF80);
+  background-image: radial-gradient(
+    circle,
+    #eab2086e,
+    #ffffff80,
+    #feb47b51,
+    #ffffff80
+  );
   animation-name: lavaLampEffect;
   animation-duration: 40s;
   animation-iteration-count: infinite;
@@ -80,7 +159,6 @@ a.co-highlight:hover {
   -webkit-background-clip: text;
   color: transparent;
   display: inline-block; /* Confines the effect strictly to the text */
-
 }
 
 @keyframes lavaLampEffect {
@@ -100,4 +178,3 @@ a.co-highlight:hover {
     background-position: 0% 50%;
   }
 }
-

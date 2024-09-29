@@ -20,38 +20,22 @@ const posts: CollectionEntry<'posts'>[] = (await getCollection('posts'))
 
 
 <BaseLayout>
-  <!-- <h1 class='text-6xl font-bungee-out text-white/10 text-[35vh] absolute pointer-events-none top-[500px] left-[400px]'>Concordance</h1> -->
- 
-  <div class='min-h-[80vh] flex flex-col justify-center'>
-    <div class='text-white flex lg:flex-row flex-col gap-8 lg:gap-0'>
-      <div class='-mt-5'>
-        <h1
-          class='lava text-5xl md:text-[10vw] lg:text-[6vw] font-paytone uppercase leading-tight'
-        >
-          Concordance
-        </h1>
-        <p
-          class='font-amstelvar-heading italic tracking-wider font-bold text-[20px] text-white/70 uppercase text-balance md:text-[3vw] lg:text-[1.8vw]'
-        >
-          Supercharging distributed compute
-        </p>
-      </div>
-      <div class="flex lg:justify-center flex-grow">
-        <p class='font-amstelvar-heading text-white/80 text-[18px] md:text-[22px] max-w-[472px]'>
+  <main class="flex flex-col grow justify-center py-10">
+    <div class='font-amstelvar-lead max-w-[600px] lg:text-[1.7vw] lg:max-w-[60vw] mx-auto flex flex-col gap-6 text-center items-center'>
+      <p>
         Concordance Labs creates infrastructure that extends the power of blockchain to enable data-rich, interactive, fully on-chain Web3 apps.
-        <br>         <br>
+      </p>
+      <p>
         We build technology with a purpose; to place data ownership back into the hands of the individual and eliminate the need for off-chain compute - all without compromizing performance or privacy. 
       </p>
-      </div>
+      <div class="pt-5" />
+      <button class="bg-black text-white font-amstelvar-button-text px-5 py-3 rounded-lg flex gap-4 justify-between items-center" style={{width: 'fit-content'}}>
+        Get in touch
+        <img src="/src/images/pixel-arrow-right.svg" class="size-[14px]" />
+      </button>
+      <div class="pt-10" />
     </div>
-  </div>
-
-  <div style="text-align: right;">
-    <div class='text-white font-departure flex gap-0 text-[24px] max-w-[472px]'>
-      > building..
-          <div class='blink_me text-white font-departure flex text-[24px] max-w-[472px]'> .
-    </div>
-  </div>
+  </ma>
 
 
 
@@ -77,5 +61,5 @@ const posts: CollectionEntry<'posts'>[] = (await getCollection('posts'))
     </section>
   }
 
-  <div class="pt-[200px]" />
+  <!-- <div class="pt-[200px]" /> -->
 </BaseLayout>

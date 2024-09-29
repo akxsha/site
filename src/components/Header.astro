@@ -1,33 +1,23 @@
 ---
 import NavLink from '@components/ui/links/NavLink.astro'
 import BrandLogo from '@components/ui/logos/BrandLogo.astro'
-import Theme from '@components/ui/logos/Theme.astro'
 import { NavigationLinks } from '@/config'
 ---
 
-<header
-  class='fixed top-0 right-0 inset-x-0 z-50 flex w-full flex-wrap text-sm md:flex-nowrap md:justify-start'
->
-  <!-- <div class='text-white'>Logo</div> -->
-  <nav
-    class='ml-auto'
-    aria-label='Global'
-  >
-    <div
-      class='hs-collapse grow basis-full overflow-hidden transition-all duration-300 md:block backdrop-blur-md p-3 px-6 bg-neutral-700/80'
-    >
-      <div
-        class='flex flex-row items-center justify-end gap-4'
-      >
-        {
-          NavigationLinks.map((link) => (
-            <NavLink url={link.url} name={link.name} />
-          ))
-        }
-      </div>
-    </div>
-  </nav>
-</header>
-<!-- spacing below nav -->
-<div class="pt-20" />
+<header class="flex items-center max-w-screen-xl mx-auto w-full">
+  <img src="/src/images/concordance-logo.svg" />
 
+  <div class="font-amstelvar-bold-body">
+    Concordance<br />Labs
+  </div>
+
+  <div class="grow" />
+
+  <div class="font-amstelvar-bold-body flex gap-6">
+    {
+      NavigationLinks.map((link) => (
+        <NavLink url={link.url} name={link.name} />
+      ))
+    }
+  </div>
+</header>

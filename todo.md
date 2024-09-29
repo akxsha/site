@@ -1,3 +1,6 @@
+- update favicon
+
+
 figure out what to do about:
 'hs-dropdown'
 

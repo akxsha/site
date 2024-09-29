@@ -11,7 +11,7 @@ export default {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-      black: '#000000',
+      black: '#010B1B',
       white: '#ffffff',
       gray: {
         100: '#f3f4f6',
@@ -73,7 +73,10 @@ export default {
         bodo: ['Bodoni Moda Variable', ...defaultTheme.fontFamily.sans],
         bungee: ['Bungee', ...defaultTheme.fontFamily.sans],
         'bungee-out': ['Bungee Outline', ...defaultTheme.fontFamily.sans],
-        'amstelvar-heading': [ 'Amstelvar Heading', ...defaultTheme.fontFamily.sans,],
+        'amstelvar-heading': [
+          'Amstelvar Heading',
+          ...defaultTheme.fontFamily.sans,
+        ],
         amstelvar: ['Amstelvar', ...defaultTheme.fontFamily.sans],
         departure: ['Departure Mono', ...defaultTheme.fontFamily.mono],
       },

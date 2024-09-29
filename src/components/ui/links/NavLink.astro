@@ -11,7 +11,7 @@ interface Props {
   id={url === '/' ? 'home' : url.replace('/', '')}
   href={url}
   data-astro-prefetch
-  class='text-base font-medium text-neutral-400 outline-none co-highlight px-1 hover:text-white'
+  class='text-base font-medium outline-none co-highlight px-1'
 >
   {name}
 </a>
@@ -28,10 +28,6 @@ interface Props {
 
     const nav = document.getElementById(navId)
     if (nav) {
-      nav.classList.remove(
-        'text-neutral-400',
-      )
-      nav.classList.add('dark:text-white')
       nav.setAttribute('aria-current', 'page')
     }
   })
