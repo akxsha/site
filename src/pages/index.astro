@@ -9,6 +9,7 @@ import '@fontsource-variable/bodoni-moda'
 import '@fontsource/paytone-one'
 import '@fontsource/bungee'
 import '@fontsource/bungee-outline'
+import { ContactButton } from '@/components/ContactButton'
 
 const posts: CollectionEntry<'posts'>[] = (await getCollection('posts'))
   .sort(
@@ -29,13 +30,10 @@ const posts: CollectionEntry<'posts'>[] = (await getCollection('posts'))
         We build technology with a purpose; to place data ownership back into the hands of the individual and eliminate the need for off-chain compute - all without compromizing performance or privacy. 
       </p>
       <div class="pt-5" />
-      <button class="bg-black text-white font-amstelvar-button-text px-5 py-3 rounded-lg flex gap-4 justify-between items-center" style={{width: 'fit-content'}}>
-        Get in touch
-        <img src="/src/images/pixel-arrow-right.svg" class="size-[14px]" />
-      </button>
+      <ContactButton client:load />
       <div class="pt-10" />
     </div>
-  </ma>
+  </main>
 
 
 

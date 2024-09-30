@@ -57,7 +57,9 @@ export default {
         400: '#f87171',
         500: '#ef4444',
       },
-      zinc: {
+      slate: {
+        50: '#f9f9fa',
+        100: '#f7f7f8',
         200: '#e4e4e7',
         400: '#a1a1aa',
         500: '#71717a',
@@ -129,5 +131,9 @@ export default {
       }),
     },
   },
-  plugins: [require('tailwindcss/nesting'), require('@tailwindcss/typography')],
+  plugins: [
+    require('tailwindcss/nesting'),
+    require('@tailwindcss/typography'),
+    require('tailwindcss-animate'),
+  ],
 }

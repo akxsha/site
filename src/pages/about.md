@@ -1,5 +1,5 @@
 ---
-layout: 'layouts/AboutLayout.astro'
+layout: '@/layouts/AboutLayout.astro'
 title: 'About'
 description: 'About'
 pubDate: '2021-02-11 15:42:01'
@@ -7,6 +7,7 @@ category: 'life'
 banner: '@images/banners/annie-spratt-Ptj8t_TXjdg-unsplash.jpg'
 tags: ['life', 'other']
 ---
+<br />
 
 We build for a feature-rich web without trusted intermediaries.
 
@@ -54,8 +55,6 @@ We challenge the blockchain community not with armchair critiques, but by enteri
 #### In Person 
 Permissionless [October '24] <br>
 DEVCON [November '24]
-#### Online
-Reach the team any time at __hello [at] concordance.dev__.
 
 <br>
 <br>

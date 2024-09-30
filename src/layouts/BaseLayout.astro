@@ -6,6 +6,7 @@ import GoogleAnalytics from '@components/support/GoogleAnalytics.astro'
 import UmamiAnalytics from '@components/support/UmamiAnalytics.astro'
 import { SITE } from '@/config'
 import '../index.css'
+import { Toaster } from '@/components/ui/toaster'
 
 interface Props {
   title: string
@@ -47,5 +48,6 @@ const normalizeTitle = !title ? SITE.title : `${title} | ${SITE.title}`
         <slot />
       </div>
       <!-- <Footer /> -->
+      <Toaster client:load />
   </body>
 </html>

@@ -19,7 +19,9 @@ export default defineConfig({
     partytown(),
     mdx(),
     sitemap(),
-    tailwind(),
+    tailwind({
+      applyBaseStyles: false,
+    }),
     react(),
     (await import('@playform/compress')).default({
       CSS: true,
