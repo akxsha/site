@@ -11,6 +11,10 @@ import {
 import { toast } from '@/hooks/use-toast'
 import { email } from '@/content/email'
 
+import arrowRight from '@images/pixel-arrow-right.svg'
+
+console.log(arrowRight)
+
 export function ContactButton() {
   const copyEmail = () => {
     toast({
@@ -28,7 +32,7 @@ export function ContactButton() {
         >
           Get in touch
           <img
-            src='/src/images/pixel-arrow-right.svg'
+            src={arrowRight.src}
             className='size-[12px] rotate-90 group-hover:opacity-100 opacity-70 transition-all'
           />
         </button>
