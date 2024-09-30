@@ -2,14 +2,18 @@
 import NavLink from '@components/ui/links/NavLink.astro'
 import BrandLogo from '@components/ui/logos/BrandLogo.astro'
 import { NavigationLinks } from '@/config'
+import logoSrc from '@images/concordance-logo.svg'
+import Image from '@components/ui/images/Image.astro'
 ---
 
 <header class="flex items-center max-w-screen-xl mx-auto w-full">
-  <img src="/src/images/concordance-logo.svg" />
+  <a href="/" class="flex items-center">
+    <Image disableBlur src={logoSrc} alt="logo" />
+    <div class="font-amstelvar-bold-body hidden md:block">
+      Concordance<br />Labs
+    </div>
+  </a>
 
-  <div class="font-amstelvar-bold-body hidden md:block">
-    Concordance<br />Labs
-  </div>
 
   <div class="grow" />
 
