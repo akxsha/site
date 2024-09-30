@@ -1,5 +1,6 @@
 ---
-import faviconSvgSrc from '@images/icon.svg'
+import faviconSvgLightSrc from '@images/favicon-light-mode.svg'
+import faviconSvgDarkSrc from '@images/favicon-dark-mode.svg'
 import { getImage } from 'astro:assets'
 import faviconSrc from '@images/icon.png'
 import brandSrc from '@images/brand-logo.jpeg'
@@ -30,7 +31,11 @@ if (!ogImage) {
   card = 'summary'
 }
 
-const faviconSvg = await getImage({ src: faviconSrc, format: 'png' })
+const faviconSvgLight = await getImage({
+  src: faviconSvgLightSrc,
+  format: 'svg',
+})
+const faviconSvgDark = await getImage({ src: faviconSvgDarkSrc, format: 'svg' })
 const appleTouchIcon = await getImage({
   src: faviconSrc,
   width: 180,
@@ -97,7 +102,20 @@ if (!socialImage.startsWith('http')) {
 <link href={canonicalURL} rel='canonical' />
 <link rel='sitemap' href='/sitemap-index.xml' />
 <!--<link href="/manifest.json" rel="manifest" />-->
-<link href='/favicon.ico' rel='icon' sizes='any' type='image/x-icon' />
-<link href={faviconSvg.src} rel='icon' type='image/svg+xml' sizes='any' />
+<!-- <link href='/favicon.ico' rel='icon' sizes='any' type='image/x-icon' /> -->
+<link
+  href={faviconSvgLight.src}
+  rel='icon'
+  type='image/svg+xml'
+  sizes='any'
+  media='(prefers-color-scheme: light)'
+/>
+<link
+  href={faviconSvgDark.src}
+  rel='icon'
+  type='image/svg+xml'
+  sizes='any'
+  media='(prefers-color-scheme: dark)'
+/>
 <link href={appleTouchIcon.src} rel='apple-touch-icon' />
 <link href={appleTouchIcon.src} rel='shortcut icon' />
