@@ -18,16 +18,14 @@ const posts: CollectionEntry<'posts'>[] = (await getCollection('posts'))
   )
   .slice(0, 3)
 ---
-
-
 <BaseLayout>
   <main class="flex flex-col grow justify-center py-10">
-    <div class='font-amstelvar-lead max-w-[600px] lg:text-[1.7vw] lg:max-w-[60vw] mx-auto flex flex-col gap-6 text-center items-center'>
+    <div class='font-amstelvar-lead max-w-[600px] lg:text-[1.7vw] lg:max-w-[55vw] mx-auto flex flex-col gap-6 text-center items-center'>
       <p>
-        Concordance Labs creates infrastructure that extends the power of blockchain to enable data-rich, interactive, fully on-chain Web3 apps.
-      </p>
+        Concordance Labs builds infrastructure to extend the power of blockchain and enable data-rich, interactive, fully on-chain Web3 apps.
+            </p>
       <p>
-        We build technology with a purpose; to place data ownership back into the hands of the individual and eliminate the need for off-chain compute - all without compromizing performance or privacy. 
+        We’re committed to eliminating the need for off-chain compute—without compromising performance or privacy.
       </p>
       <div class="pt-5" />
       <ContactButton client:load />
