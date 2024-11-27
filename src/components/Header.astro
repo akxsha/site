@@ -4,18 +4,24 @@ import BrandLogo from '@components/ui/logos/BrandLogo.astro'
 import { NavigationLinks } from '@/config'
 import logoSrc from '@images/concordance-logo.svg'
 import Image from '@components/ui/images/Image.astro'
+import { ContactButton } from '@/components/ContactButton'
+
 ---
 
 <header class="flex items-center max-w-screen-xl mx-auto w-full">
   <a href="/" class="flex items-center">
     <Image disableBlur src={logoSrc} alt="logo" />
     <div class="font-amstelvar-bold-body hidden md:block">
-      Concordance<br />Labs
+      Concordance
     </div>
   </a>
 
 
   <div class="grow" />
+  
+  <div class="pt-5  flex gap-6" />
+  <ContactButton client:load />
+  <div class="pt-10" />
 
   <div class="font-amstelvar-bold-body flex gap-6">
     {

@@ -27,14 +27,10 @@ export function ContactButton() {
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <button
-          className='group bg-black text-white font-amstelvar-button-text px-5 py-3 rounded-lg flex gap-4 justify-between items-center hover:bg-black/90 outline-none focus-visible:ring-4 focus-visible:ring-black/30 ring-0 transition-all'
+          className='group bg-black text-white font-amstelvar-button-text px-2 py-2 rounded-lg flex gap-4 justify-between items-center hover:bg-black/90 outline-none focus-visible:ring-3 focus-visible:ring-black/30 ring-0 transition-all'
           style={{ width: 'fit-content' }}
         >
-          Get in touch
-          <img
-            src={arrowRight.src}
-            className='size-[12px] rotate-90 group-hover:opacity-100 opacity-70 transition-all'
-          />
+          Get In Touch
         </button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align='center'>
