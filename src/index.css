@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply bg-backblue text-white; /* Use the custom background color */
+}
 @font-face {
   font-family: 'Amstelvar';
   src: url('/amstelvar-roman.ttf') format('truetype');
@@ -82,8 +85,8 @@
 .font-amstelvar-button-text {
   font-family: 'Amstelvar';
   font-style: normal;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 15px;
+  line-height: 20px;
   /* identical to box height */
   letter-spacing: 0.02em;
 

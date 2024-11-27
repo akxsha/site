@@ -3,6 +3,7 @@
 import defaultTheme from 'tailwindcss/defaultTheme'
 
 // Akasha's colors: Punchy Blue: #078CDA Less punchy Blue: #0680C6, Chestnut Red: #A53F2B
+// Akasha's brown blue: #1D1D25
 
 export default {
   content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
@@ -13,6 +14,7 @@ export default {
       current: 'currentColor',
       black: '#010B1B',
       white: '#ffffff',
+      backblue: '#1D1D25',
       gray: {
         100: '#f3f4f6',
         300: '#d1d5db',
