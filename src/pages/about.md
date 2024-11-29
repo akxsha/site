@@ -8,7 +8,7 @@ banner: '@images/banners/annie-spratt-Ptj8t_TXjdg-unsplash.jpg'
 tags: ['life', 'other']
 ---
 <br />
-Concordance is a public goods lab designing tools for a transparent and feature-rich web without trusted intermediaries. <br>
+Concordance designs tools for a transparent and feature-rich web without trusted intermediaries. <br>
 
 
 <!--### Mission Founded on the belief that everyone has a right to data transparency, Concordance is on a mission to address the Web3 Interactivity Gap.
@@ -16,7 +16,7 @@ Concordance is a public goods lab designing tools for a transparent and feature-
  <u>The Interactivity Gap:</u>
 
 Web3 is revolutionary in its aim to enable a more secure and trustless online experience. <br>
-To be a true alternative to the contemporary web, Web3 must have a way to natively enable state-independent features like search, streaming, or messaging for decentralized apps. Without it, builders are forced to default to web2 architecture, and in the process, reintroduce system opacity and data centralization. 
+To be a true alternative to the contemporary web, Web3 must have a way to natively enable state-independent features like search, streaming, or login for decentralized apps. Without it, builders are forced to default to web2 architecture, and in the process, reintroduce system opacity and data centralization. 
 
 Concordance is closing the interactivity gap because we believe your personal data does not belong in a centralized server outside of your control. 
 
