@@ -2,9 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+/* body {
+  @apply bg-backblue text-white;
+} */
+
+
 body {
-  @apply bg-backblue text-white; /* Use the custom background color */
+  background-color: white; /* Solid blue background */
+  position: relative; /* Needed for pseudo-elements or additional positioning */
+  margin: 0;
+  overflow: hidden; /* Prevent overflow if the circle extends outside the screen */
+  height: 100vh; /* Ensure the body spans the full viewport height */
 }
+
+
+
 @font-face {
   font-family: 'Amstelvar';
   src: url('/amstelvar-roman.ttf') format('truetype');

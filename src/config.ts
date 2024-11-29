@@ -14,7 +14,7 @@ export const NavigationLinks: NavigationLink[] = [
   // { name: 'Blog', url: '/posts' },
   // { name: 'Category', url: '/categories' },
   // { name: 'Timeline', url: '/timeline' },
-  { name: 'About', url: '/about' },
+  // { name: 'About', url: '/about' },
   { name: 'Docs', url: 'https://concordance-labs.gitbook.io/concordance-labs/' },
   // { name: 'Friends', url: '/friends' },
 ]
