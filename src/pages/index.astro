@@ -4,6 +4,8 @@ import type { CollectionEntry } from 'astro:content'
 import BaseLayout from '@layouts/BaseLayout.astro'
 import BlogInsight from '@components/blog/BlogInsight.astro'
 import FeaturesSection from '@components/ui/sections/FeaturesSection.astro'
+import logoSrc from '@images/concordance-logo.svg'
+import Image from '@components/ui/images/Image.astro'
 
 import '@fontsource-variable/bodoni-moda'
 import '@fontsource/paytone-one'
@@ -18,20 +20,28 @@ const posts: CollectionEntry<'posts'>[] = (await getCollection('posts'))
   )
   .slice(0, 3)
 ---
+
 <BaseLayout>
-  <main class="flex flex-col grow justify-center py-10">
-    <div class='font-amstelvar-lead max-w-[600px] lg:text-[1.7vw] lg:max-w-[55vw] mx-auto flex flex-col gap-6 text-center items-center'>
+  <main class="flex grid place-items-center min-h-full lg:pl-0 xl:pl-8 lg:pt-[15%] mt-[3%]">
+    <a class= 'font-departure text-center'> BLOCKCHAIN EXTENSIBILITY TOOLKIT</a>
+    <a href="/" class="flex flex-col sm:flex-row items-center gap-6 -ml-[15%] ">
+      <Image disableBlur src={logoSrc} alt="logo" class="w-[50px] md:w-[90px] lg:w-[150px] xl:w-[240px] h-auto"/>
+      <div class="text-left">
+        <h1 class="font-amstelvar-heading text-lg md:text-xl lg:text-2xl xl:text-6xl">
+          Experience seamless integration
+        </h1>
+      </div>
+    </a>
+    <div class='font-amstelvar-lead text-center max-w-[300px] lg:text-[1.3vw] lg:max-w-[50vw] mx-auto flex flex-col gap-6'>
       <p>
-        Concordance Labs builds infrastructure to extend the power of blockchain and enable data-rich, interactive, fully on-chain Web3 apps.
-            </p>
-      <p>
-        We’re committed to eliminating the need for off-chain compute—without compromising performance or privacy.
+        Concordance provides developers the tools, framework, and platform to build and deploy a new class of blockchain applications. 
       </p>
     </div>
+    <div class="pt-9  flex gap-6" />
+    <ContactButton client:load />
+    <div class="pt-10" />
   </main>
 
-
-The all-in-one developer toolkit to simplify blockchain-based applications 
 
   <!-- <FeaturesSection /> -->
 
